@@ -1,0 +1,162 @@
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ git config --global user.name Baljeet
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ git config --global user.email baljeetsingh0385@gmail.com
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ git config --global user.name
+Baljeet
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ git config --global user.email
+baljeetsingh0385@gmail.com
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ touch.gitignore
+bash: touch.gitignore: command not found
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ touch .gitignore
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes
+$ git init
+Initialized empty Git repository in C:/Users/usr/Desktop/Coding Ninja - Java Notes/.git/
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git add .
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git commit -m"Intial commit"
+[master (root-commit) ba125e0] Intial commit
+ 30 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 Arrays-1.pdf
+ create mode 100644 Arrays-2.pdf
+ create mode 100644 Backtracking.pdf
+ create mode 100644 BinarySearchTree-2.pdf
+ create mode 100644 BinaryTree-1.pdf
+ create mode 100644 Conditionals_and_loops -3.pdf
+ create mode 100644 DynamicPrograming.pdf
+ create mode 100644 Flowchart notes - 1.pdf
+ create mode 100644 Functions_variables_and_their_scopes.pdf
+ create mode 100644 Graph_1.pdf
+ create mode 100644 Hashmap.pdf
+ create mode 100644 HuffmanCoding.pdf
+ create mode 100644 Linked_List-1.pdf
+ create mode 100644 Linked_List_2.pdf
+ create mode 100644 Logical Operators and Typecasting-2.pdf
+ create mode 100644 Pattern-1.pdf
+ create mode 100644 Pattern-2.pdf
+ create mode 100644 Priority_Queue_2.pdf
+ create mode 100644 Queue.pdf
+ create mode 100644 Recurrsion.pdf
+ create mode 100644 Recurssion-2.pdf
+ create mode 100644 SpaceComplexity.pdf
+ create mode 100644 Stacks & Queues (Hinglish)-1905.pdf
+ create mode 100644 TimeComplexity.pdf
+ create mode 100644 Tree.pdf
+ create mode 100644 oops-2.pdf
+ create mode 100644 oops-3.pdf
+ create mode 100644 oops-4.pdf
+ create mode 100644 searching_And_sorting_notes-1.pdf
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git remote add origin git@github.com:BaljeetSinghBhutani/DanceWebsite.git
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git push origin master
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ ssh -keygen -t rsa -b 4096 -C "baljeetsingh0385@gmail.com"
+Bad escape character 'ygen'.
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ ssh-keygen -t rsa -b 4096 -C "baljeetsingh0385@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/usr/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/usr/.ssh/id_rsa
+Your public key has been saved in /c/Users/usr/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:z6dSXQnf2cBgp8fqwoM5h+zG/VgEFL7o7D3uPITFmZE baljeetsingh0385@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|          oooo.  |
+|         oE..+o  |
+|         .o+.oo+o|
+|         .=o o+.o|
+|    igno    So..o.   |
+|       +.Boo.    |
+|       .O+B +    |
+|       o+=+B     |
+|       .o+B+.    |
++----[SHA256]-----+
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ cat ^[[200~/c/Users/usr/.ssh/id_rsa.pub
+cat: ''$'\033''[200~/c/Users/usr/.ssh/id_rsa.pub': No such file or directory
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ cat /c/Users/usr/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDtmq8MSntN/3F3zM6hImELpFfPUOs0/CUeVCirk4YHLG9uUf3Y8gyN9O+2FC0LisA0Fp9G4VrR3JaV1FS9tpzfwlbeMKQ8Mte+h5VubzPIPtGlxGCyxK6cZXMTtx0LVYFxhB0wGC6Gul6G+C4A+oLhG7YNlHEWEqX4Gl2NZdskFe0jQfDX+6zYiMoniu/RJwQfa7eSrjz2C++gysmBWhh5AjMo78s+MXvEqTmnFM4H+KlYcYy1S5mnrrM9dUF8fMVj4PQ2Kvbp2KZTITsh4s4TYe+YUKxMTvinCIxZPsuc80RsS7w8PdKbx26xJxHEe/YtDwU3IyBX6zi8SYNCFCbwwrBGikD/moHCqGyp/ZqulTV/eEnrIAQVrsUV9jLykzqbvGu1VeW6cbVqd9dzydHDMYLAlV9k8Vwt87OGK0Q/84ewYqmpZTu/xktVZCDO1UBAKbePuJ7jMhCq2oaJ9zxdlNb7erqQzkFGXWY3WbQrbwRP0FRfxMQcISPYiOauz0byWrTvFAa5gC2AF4qB1kY+mBOyfugYF4mHq8dN18gdEXit5B80V65ZVXS19kB0kx0IEzfFcPZwycKK+Xjsky3snI80rHI4gX0i32Pxf/BeDFIq7++Y9xwdrBjv5YaeOWY/wtr+g1D7sDrSy6pfcNPN8rYU2wiHgy8U9ViYA58daQ== baljeetsingh0385@gmail.com
+
+usr@DESKTOP-OO9ESL0 MINGW64 ~/Desktop/Coding Ninja - Java Notes (master)
+$ git push origin master
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (32/32), 6.98 MiB | 1.27 MiB/s, done.
+Total 32 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:BaljeetSinghBhutani/DanceWebsite.git
+ * [new branch]      master -> master
+
+
+
+
+
+
+Summary of the steps nedded to push on the github
+touch .gitignore 
+git congif --global user.name  yourname
+git config --global user.email youremail@example.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status #to see the status
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+Add the key to the github
+git remote add origin <ssh url.git>
+
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
